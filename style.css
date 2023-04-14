@@ -58,7 +58,6 @@ input{
     border: none;
     outline: none;
     background: transparent;
-    padding: 10px;
     color:#060e77;
 }
 
@@ -142,4 +141,29 @@ ul li span:hover{
     color: #ff0000;
 }
 
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+    input{
+        flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:#060e77;
+    }
 
+    button{
+        border: none;
+        outline: none;
+        padding: 5px 20px;
+        background-color: #090541;
+        color: #edeef0;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+    button:hover{
+        background-color: rgb(30, 30, 78);
+    }
+  }
