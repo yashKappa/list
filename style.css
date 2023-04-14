@@ -175,13 +175,6 @@ ul li span:hover{
         padding-bottom: 2rem;
         
     }
-    .todo-app{
-        width: 50%;
-        max-width: 100%;
-        background:rgb(34, 34, 245);
-        border-radius: 5rem;
-        
-    }
     .todo-app h2{
         color: #ffffff;
         display: flex;
