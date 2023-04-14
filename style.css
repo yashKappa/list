@@ -166,31 +166,4 @@ ul li span:hover{
     button:hover{
         background-color: rgb(30, 30, 78);
     }
-    ul li.checked{
-        color: #ff0000;
-        text-decoration: line-through;
-        background-color:#170cb1;
-        border-radius: 100px;
-        padding-bottom: 20px;
-        padding-bottom: 2rem;
-        
-    }
-    .todo-app h2{
-        color: #ffffff;
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    
-    .todo-app h2 img{
-        width:30px;
-        margin-left: 10px;
-    }
-    
-    .row{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #edeef0;
-    }
   }
