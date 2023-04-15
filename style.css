@@ -167,13 +167,16 @@ ul li span:hover{
     ul li.checked{
         color: #ff0000;
         text-decoration: line-through;
-        background-color:#170cb1;
+        background-color:#060238;
         border-radius: 100px;
-        padding-bottom: 10px;
-        font-size: 18px;
+        font-size: 15px;
         
     }
     ul li:hover{
+        color: antiquewhite;
+        font-size:15px;
+        background-color: rgb(44, 24, 156);
+    }
         
     }
   }
