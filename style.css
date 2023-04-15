@@ -113,8 +113,6 @@ ul li.checked{
     text-decoration: line-through;
     background-color:#170cb1;
     border-radius: 100px;
-    padding-bottom: 20px;
-    padding-bottom: 2rem;
     font-size: x-large
     
 }
@@ -176,8 +174,6 @@ ul li span:hover{
         
     }
     ul li:hover{
-        color: antiquewhite;
-        font-size: 18px;
-        background-color: rgb(7, 0, 48);
+        
     }
   }
