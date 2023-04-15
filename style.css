@@ -51,7 +51,6 @@ body{
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
-    scroll-margin: 10px;
 }
 input{
     flex: 1;
@@ -149,15 +148,17 @@ ul li span:hover{
     outline: none;
     background: transparent;
     color:#060e77;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
     }
 
     button{
         border: none;
         outline: none;
-        padding: 7px 20px;
+        padding: 14px 22px;
         background-color: #090541;
         color: #edeef0;
-        font-size: 6px;
+        font-size: 13px;
         cursor: pointer;
         border-radius: 40px;
     }
