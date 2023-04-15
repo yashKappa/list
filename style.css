@@ -140,7 +140,7 @@ ul li span:hover{
 
 @media screen and (max-width: 992px) {
     body {
-      background-color: rgb(228, 96, 169);
+      background-color: rgb(96, 126, 228);
     }
     input{
         flex: 1;
