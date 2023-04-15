@@ -156,7 +156,7 @@ ul li span:hover{
     button{
         border: none;
         outline: none;
-        padding: 5px 20px;
+        padding: 7px 20px;
         background-color: #090541;
         color: #edeef0;
         font-size: 6px;
@@ -165,5 +165,19 @@ ul li span:hover{
     }
     button:hover{
         background-color: rgb(30, 30, 78);
+    }
+    ul li.checked{
+        color: #ff0000;
+        text-decoration: line-through;
+        background-color:#170cb1;
+        border-radius: 100px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        
+    }
+    ul li:hover{
+        color: antiquewhite;
+        font-size: 18px;
+        background-color: rgb(7, 0, 48);
     }
   }
