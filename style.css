@@ -84,14 +84,14 @@ ul li{
     background-color:  rgb(144, 174, 240);;
     color:rgb(0, 0, 0);
     border-radius: 50PX;
-    border-bottom: 3px solid rgb(16, 2, 78);
-    border-left:  3px solid rgb(16, 2, 78);
-    border-right: 3px solid rgb(16, 2, 78);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-left:  3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
 }
 ul li:hover{
     color: antiquewhite;
     font-size:x-large;
-    background-color: rgb(7, 0, 48);
+    background-color: rgb(44, 24, 156);
 }
 
 ul li::before{
@@ -111,7 +111,7 @@ ul li::before{
 ul li.checked{
     color: #ff0000;
     text-decoration: line-through;
-    background-color:#170cb1;
+    background-color:#060244;
     border-radius: 100px;
     font-size: x-large
     
