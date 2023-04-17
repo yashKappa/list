@@ -89,7 +89,6 @@ ul li{
 }
 ul li:hover{
     color: antiquewhite;
-    font-size:x-large;
     background-color: rgb(44, 24, 156);
 }
 
@@ -112,8 +111,6 @@ ul li.checked{
     text-decoration: line-through;
     background-color:#060244;
     border-radius: 100px;
-    font-size: x-large
-    
 }
 
 ul li.checked::before{
@@ -136,6 +133,12 @@ ul li span{
 ul li span:hover{
     background: #fcf3f3;
     color: #ff0000;
+}
+
+
+.head{
+    font-size:x-large;
+    color: #edeef0;
 }
 
 @media screen and (max-width: 992px) {
