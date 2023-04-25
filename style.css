@@ -139,6 +139,7 @@ ul li span:hover{
 .head{
     font-size:x-large;
     color: #edeef0;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
