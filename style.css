@@ -20,7 +20,7 @@ body{
 }
 
 .todo-app{
-    width: 100%;
+    width: 80%;
     max-width: 1360%;
     background:rgb(80, 80, 253);
     margin: 100px auto 20px;
@@ -43,32 +43,28 @@ body{
     margin-left: 10px;
 }
 
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #edeef0;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
-}
+
 input{
     flex: 1;
     border: none;
     outline: none;
     background: transparent;
     color:#060e77;
+    background-color: #edeef0;
+    padding: 12px 40px;
+    width: 80%;
+    border-radius: 0.5rem;
 }
 
 button{
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 12px 40px;
     background-color: #090541;
     color: #edeef0;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 0.5rem;
 }
 button:hover{
     background-color: rgb(30, 30, 78);
@@ -80,16 +76,15 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
-    background-color:  rgb(144, 174, 240);;
+    background-color:  rgb(144, 174, 240);
     color:rgb(0, 0, 0);
-    border-radius: 50PX;
     border-bottom: 3px solid rgb(255, 255, 255);
     border-left:  3px solid rgb(255, 255, 255);
     border-right: 3px solid rgb(255, 255, 255);
 }
 ul li:hover{
-    color: antiquewhite;
-    background-color: rgb(44, 24, 156);
+    color: rgb(0, 0, 0);
+    background-color:  rgb(113, 157, 252);
 }
 
 ul li::before{
@@ -110,7 +105,6 @@ ul li.checked{
     color: #ff0000;
     text-decoration: line-through;
     background-color:#060244;
-    border-radius: 100px;
 }
 
 ul li.checked::before{
@@ -131,7 +125,6 @@ ul li span{
 }
 
 ul li span:hover{
-    background: #fcf3f3;
     color: #ff0000;
 }
 
